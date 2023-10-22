@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SKBTesting.BLL.Abstract\SKBTesting.BLL.Abstract.csproj" />
+    <ProjectReference Include="..\SKBTesting.BLL.BaseLogic\SKBTesting.BLL.BaseLogic.csproj" />
+    <ProjectReference Include="..\SKBTesting.DAL.Abstract\SKBTesting.DAL.Abstract.csproj" />
+    <ProjectReference Include="..\SKBTesting.DAL.FileDAL\SKBTesting.DAL.FileDAL.csproj" />
+    <ProjectReference Include="..\SKBTesting.DAL.MSSQLDAL\SKBTesting.DAL.MSSQLDAL.csproj" />
+  </ItemGroup>
+
+</Project>
